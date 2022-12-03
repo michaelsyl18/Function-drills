@@ -62,7 +62,7 @@ function greeting(name) {
   console.log(`Hello, ${name}`)
 }
 
-greeting('Sam')
+greeting('Michael')
 
 
 ////////////////// PROBLEM 5 ////////////////////
@@ -78,6 +78,14 @@ greeting('Sam')
 
 //CODE HERE
 
+const compareNums = (num1, num2) => {
+  if (num1 > num2) {
+      return num1
+  } else {
+      return num2
+  }
+}
+
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -91,6 +99,7 @@ greeting('Sam')
 //CODE HERE
 
 
+
 ////////////////// PROBLEM 7 ////////////////////
 
 /*
@@ -98,9 +107,7 @@ greeting('Sam')
   Uncomment the correct `console.log` underneath.
 */
 
-const exclaim = function(str) {
-  return str.toUpperCase() + '!!!'
-}
+
 
 // console.log('arrow')
 // console.log('declaration')
@@ -115,9 +122,7 @@ const exclaim = function(str) {
   Uncomment the correct `console.log` underneath.
 */
 
-const exclaimTwo = str => {
-  return str.toUpperCase() + '!!!'
-}
+
 
 // console.log('arrow')
 // console.log('declaration')
@@ -139,9 +144,8 @@ const exclaimTwo = str => {
   Uncomment the correct `console.log` underneath.
 */
 
-function exclaimFour(str) {
-  return str.toUpperCase() + '!!!'
-}
+
+
 
 // console.log('arrow')
 // console.log('declaration')
